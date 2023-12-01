@@ -13,6 +13,7 @@ namespace WeatherForecastV100.Controllers
 
         private readonly ILogger<WeatherForecastController> _logger;
 
+        //Comment random
         public WeatherForecastController(ILogger<WeatherForecastController> logger)
         {
             _logger = logger;
