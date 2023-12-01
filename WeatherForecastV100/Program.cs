@@ -11,7 +11,7 @@ var app = builder.Build();
 
 
 app.UseSwagger();
-// Configure the HTTP request pipeline.
+// Configure the HTTP requestt pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwaggerUI();
